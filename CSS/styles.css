@@ -72,10 +72,10 @@ table{width: 100%;}
 	.banner h1 {
 		margin-top: 0px;
 		text-shadow: 0px -1px 0px rgba(0,0,0,.5);
-		font-size: 20px;
+		font-size: 12px;
 		color: #666;
 		float: left;
-		margin-left: 0px;
+		margin-left: 5px;
 	}
 	.banner a{
 		float:right;
@@ -83,7 +83,7 @@ table{width: 100%;}
 		text-shadow: 0px -1px 0px rgba(0,0,0,.5);
 		margin-top: 35px;
 		margin-right: 10px;
-		font-size: 12px;
+		font-size: 6px;
 	}
 	.Inner_Image{
 		height: 50%;
@@ -95,7 +95,7 @@ table{width: 100%;}
 	}
 	
 	#Balls_Image{
-		margin-left: 50px;
+		margin-left: 25px;
 		width: 300px;
 		height: 150px;
 		font-size: 20px;
