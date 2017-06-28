@@ -6,9 +6,7 @@ border-radius: 4px;
 padding-bottom: 10px;
 height: 50px;
 }
-body {
-	margin-top: 0px;
-}
+
 .banner h1 {
 		margin-top: 0px;
 		text-shadow: 0px -1px 0px rgba(0,0,0,.5);
@@ -55,4 +53,64 @@ table{width: 100%;}
 	background-color: #666;
 	border-radius: 10px;
 	text-align: center;
+}
+@media only screen and (max-width: 768px){
+	body {
+		margin-top: 0px;
+	}
+	a {
+		color: #ff0000;
+	}
+	.banner{
+		width: 100%;
+		background-color: #aaa;
+		margin-top: 0px;
+		border-radius: 4px;
+		padding-bottom: 10px;
+		height: 50px;
+	}
+	.banner h1 {
+		margin-top: 0px;
+		text-shadow: 0px -1px 0px rgba(0,0,0,.5);
+		font-size: 50px;
+		color: #666;
+		float: left;
+		margin-left: 20px;
+	}
+	.banner a{
+		float:right;
+		color: #666;
+		text-shadow: 0px -1px 0px rgba(0,0,0,.5);
+		margin-top: 35px;
+		margin-right: 10px;
+		font-size: 20px;
+	}
+	.Inner_Image{
+		height: 50%;
+		width: 50%;
+		border-size: 5px;
+		border-color: #000;
+		border-style: solid;
+		margin-top: 10px;
+	}
+	
+	#Balls_Image{
+		margin-left: 75px;
+		width: 300px;
+		height: 150px;
+		font-size: 20px;
+		padding-top: 10px;
+		background-color: #666;
+		border-radius: 10px;
+		text-align: center;	
+	}
+	#Pong_Image{
+		width: 300px;
+		height: 150px;
+		font-size: 20px;
+		padding-top: 10px;
+		background-color: #666;
+		border-radius: 10px;
+		text-align: center;
+	}
 }
